@@ -1,0 +1,1806 @@
+{
+  "source": "Voces1comprimido.pdf",
+  "pageCount": 119,
+  "sourceAnnotationCount": 62,
+  "hotspotCount": 47,
+  "annotations": [
+    {
+      "id": "p1-link-1",
+      "page": 1,
+      "type": "external",
+      "rect": [
+        0.8223925,
+        0.9489178,
+        0.1297718,
+        0.0178161
+      ],
+      "url": "https://spanish.hku.hk/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p2-link-1",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.0968308,
+        0.5004525,
+        0.2419048,
+        0.0222702
+      ],
+      "targetPage": 3,
+      "label": {
+        "es": "Ir a El equipo de español",
+        "en": "Go to El equipo de español"
+      }
+    },
+    {
+      "id": "p2-link-2",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.0936615,
+        0.6989059,
+        0.1133929,
+        0.0222702
+      ],
+      "targetPage": 9,
+      "label": {
+        "es": "Ir a Literatura",
+        "en": "Go to Literatura"
+      }
+    },
+    {
+      "id": "p2-link-3",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.0968308,
+        0.607749,
+        0.2066269,
+        0.0222702
+      ],
+      "targetPage": 7,
+      "label": {
+        "es": "Ir a Aprender español",
+        "en": "Go to Aprender español"
+      }
+    },
+    {
+      "id": "p2-link-4",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.0968308,
+        0.7900629,
+        0.0818948,
+        0.0222702
+      ],
+      "targetPage": 21,
+      "label": {
+        "es": "Ir a Música",
+        "en": "Go to Música"
+      }
+    },
+    {
+      "id": "p2-link-5",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.4936459,
+        0.1070932,
+        0.0222702
+      ],
+      "targetPage": 37,
+      "label": {
+        "es": "Ir a Deportes",
+        "en": "Go to Deportes"
+      }
+    },
+    {
+      "id": "p2-link-6",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.7032739,
+        0.1486706,
+        0.0222702
+      ],
+      "targetPage": 52,
+      "label": {
+        "es": "Ir a Gastronomía",
+        "en": "Go to Gastronomía"
+      }
+    },
+    {
+      "id": "p2-link-7",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.5988359,
+        0.1511904,
+        0.0222702
+      ],
+      "targetPage": 44,
+      "label": {
+        "es": "Ir a Eventos HKU",
+        "en": "Go to Eventos HKU"
+      }
+    },
+    {
+      "id": "p2-link-8",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.0936615,
+        0.8812197,
+        0.2809623,
+        0.0222702
+      ],
+      "targetPage": 30,
+      "label": {
+        "es": "Ir a Mundo hispanohablante",
+        "en": "Go to Mundo hispanohablante"
+      }
+    },
+    {
+      "id": "p2-link-9",
+      "page": 2,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.8478779,
+        0.1990674,
+        0.0222702
+      ],
+      "targetPage": 61,
+      "label": {
+        "es": "Ir a Versión en inglés",
+        "en": "Go to Versión en inglés"
+      }
+    },
+    {
+      "id": "p7-link-1",
+      "page": 7,
+      "type": "internal",
+      "rect": [
+        0.7552072,
+        0.5240915,
+        0.0037798,
+        0.0222702
+      ],
+      "targetPage": 67,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p7-link-2",
+      "page": 7,
+      "type": "internal",
+      "rect": [
+        0.758987,
+        0.5240915,
+        0.1839484,
+        0.0222702
+      ],
+      "targetPage": 67,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p9-link-1",
+      "page": 9,
+      "type": "internal",
+      "rect": [
+        0.6930765,
+        0.054999,
+        0.0062996,
+        0.032069
+      ],
+      "targetPage": 69,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p9-link-2",
+      "page": 9,
+      "type": "internal",
+      "rect": [
+        0.6993761,
+        0.054999,
+        0.2620635,
+        0.032069
+      ],
+      "targetPage": 69,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p21-link-1",
+      "page": 21,
+      "type": "internal",
+      "rect": [
+        0.6930765,
+        0.054999,
+        0.0062996,
+        0.032069
+      ],
+      "targetPage": 81,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p21-link-2",
+      "page": 21,
+      "type": "internal",
+      "rect": [
+        0.6993761,
+        0.054999,
+        0.2620635,
+        0.032069
+      ],
+      "targetPage": 81,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p22-link-1",
+      "page": 22,
+      "type": "external",
+      "rect": [
+        0.2650771,
+        0.8975356,
+        0.2267857,
+        0.0641382
+      ],
+      "url": "https://www.youtube.com/@VocesFanzineHKU",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p29-link-1",
+      "page": 29,
+      "type": "external",
+      "rect": [
+        0.0867246,
+        0.8553801,
+        0.142371,
+        0.1006612
+      ],
+      "url": "https://www.youtube.com/@VocesFanzineHKU",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p30-link-1",
+      "page": 30,
+      "type": "internal",
+      "rect": [
+        0.6930765,
+        0.054999,
+        0.0062996,
+        0.032069
+      ],
+      "targetPage": 90,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p30-link-2",
+      "page": 30,
+      "type": "internal",
+      "rect": [
+        0.6993761,
+        0.054999,
+        0.2620635,
+        0.032069
+      ],
+      "targetPage": 90,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p37-link-1",
+      "page": 37,
+      "type": "internal",
+      "rect": [
+        0.6930765,
+        0.054999,
+        0.0062996,
+        0.032069
+      ],
+      "targetPage": 97,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p37-link-2",
+      "page": 37,
+      "type": "internal",
+      "rect": [
+        0.6993761,
+        0.054999,
+        0.2620635,
+        0.032069
+      ],
+      "targetPage": 97,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p43-link-1",
+      "page": 43,
+      "type": "external",
+      "rect": [
+        0.1590685,
+        0.4731614,
+        0.2507242,
+        0.0641381
+      ],
+      "url": "https://youtu.be/MM9pXrrD6sw",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p43-link-2",
+      "page": 43,
+      "type": "external",
+      "rect": [
+        0.1590685,
+        0.5248282,
+        0.2507242,
+        0.0641381
+      ],
+      "url": "https://youtu.be/MM9pXrrD6sw",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p43-link-3",
+      "page": 43,
+      "type": "external",
+      "rect": [
+        0.1590685,
+        0.4211985,
+        0.2507242,
+        0.0641381
+      ],
+      "url": "https://youtu.be/MM9pXrrD6sw",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p43-link-4",
+      "page": 43,
+      "type": "external",
+      "rect": [
+        0.5974925,
+        0.7451929,
+        0.2507242,
+        0.0641382
+      ],
+      "url": "https://youtu.be/PdWqAvzj05A",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p43-link-5",
+      "page": 43,
+      "type": "external",
+      "rect": [
+        0.5974925,
+        0.7968598,
+        0.2507242,
+        0.0641381
+      ],
+      "url": "https://youtu.be/PdWqAvzj05A",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p43-link-6",
+      "page": 43,
+      "type": "external",
+      "rect": [
+        0.5974925,
+        0.69323,
+        0.2507242,
+        0.0641382
+      ],
+      "url": "https://youtu.be/PdWqAvzj05A",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p44-link-1",
+      "page": 44,
+      "type": "internal",
+      "rect": [
+        0.6930765,
+        0.054999,
+        0.0062996,
+        0.032069
+      ],
+      "targetPage": 104,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p44-link-2",
+      "page": 44,
+      "type": "internal",
+      "rect": [
+        0.6993761,
+        0.054999,
+        0.2620635,
+        0.032069
+      ],
+      "targetPage": 104,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p52-link-1",
+      "page": 52,
+      "type": "internal",
+      "rect": [
+        0.6930765,
+        0.054999,
+        0.0062996,
+        0.032069
+      ],
+      "targetPage": 112,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p52-link-2",
+      "page": 52,
+      "type": "internal",
+      "rect": [
+        0.6993761,
+        0.054999,
+        0.2620635,
+        0.032069
+      ],
+      "targetPage": 112,
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p53-link-1",
+      "page": 53,
+      "type": "external",
+      "rect": [
+        0.0477341,
+        0.1817799,
+        0.904623,
+        0.5131052
+      ],
+      "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p54-link-1",
+      "page": 54,
+      "type": "external",
+      "rect": [
+        0.0477341,
+        0.2031353,
+        0.5064881,
+        0.2708056
+      ],
+      "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p54-link-2",
+      "page": 54,
+      "type": "external",
+      "rect": [
+        0.5020897,
+        0.6111963,
+        0.4258531,
+        0.3180183
+      ],
+      "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p59-link-1",
+      "page": 59,
+      "type": "external",
+      "rect": [
+        0.3840529,
+        0.9287113,
+        0.2318254,
+        0.0178161
+      ],
+      "url": "https://spanish.hku.hk/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p61-link-1",
+      "page": 61,
+      "type": "external",
+      "rect": [
+        0.8223925,
+        0.9489178,
+        0.1297718,
+        0.0178161
+      ],
+      "url": "https://spanish.hku.hk/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p62-link-1",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.0968308,
+        0.5004525,
+        0.1612698,
+        0.0222702
+      ],
+      "targetPage": 63,
+      "label": {
+        "es": "Ir a Spanish Team",
+        "en": "Go to Spanish Team"
+      }
+    },
+    {
+      "id": "p62-link-2",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.0936615,
+        0.6989059,
+        0.1146528,
+        0.0222702
+      ],
+      "targetPage": 69,
+      "label": {
+        "es": "Ir a Literature",
+        "en": "Go to Literature"
+      }
+    },
+    {
+      "id": "p62-link-3",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.0968308,
+        0.607749,
+        0.1990675,
+        0.0222702
+      ],
+      "targetPage": 67,
+      "label": {
+        "es": "Ir a Learning Spanish",
+        "en": "Go to Learning Spanish"
+      }
+    },
+    {
+      "id": "p62-link-4",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.0968308,
+        0.7900629,
+        0.0692956,
+        0.0222702
+      ],
+      "targetPage": 81,
+      "label": {
+        "es": "Ir a Music",
+        "en": "Go to Music"
+      }
+    },
+    {
+      "id": "p62-link-5",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.4936459,
+        0.0755952,
+        0.0222702
+      ],
+      "targetPage": 97,
+      "label": {
+        "es": "Ir a Sports",
+        "en": "Go to Sports"
+      }
+    },
+    {
+      "id": "p62-link-6",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.7032739,
+        0.0592162,
+        0.0222702
+      ],
+      "targetPage": 112,
+      "label": {
+        "es": "Ir a Food",
+        "en": "Go to Food"
+      }
+    },
+    {
+      "id": "p62-link-7",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.5989406,
+        0.5988359,
+        0.1360714,
+        0.0222702
+      ],
+      "targetPage": 104,
+      "label": {
+        "es": "Ir a HKU Events",
+        "en": "Go to HKU Events"
+      }
+    },
+    {
+      "id": "p62-link-8",
+      "page": 62,
+      "type": "internal",
+      "rect": [
+        0.0936615,
+        0.8812197,
+        0.3275793,
+        0.0222702
+      ],
+      "targetPage": 90,
+      "label": {
+        "es": "Ir a The Spanish-speaking world",
+        "en": "Go to The Spanish-speaking world"
+      }
+    },
+    {
+      "id": "p82-link-1",
+      "page": 82,
+      "type": "external",
+      "rect": [
+        0.2562041,
+        0.8975356,
+        0.2444246,
+        0.0641382
+      ],
+      "url": "https://www.youtube.com/@VocesFanzineHKU",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p89-link-1",
+      "page": 89,
+      "type": "external",
+      "rect": [
+        0.0867246,
+        0.8553801,
+        0.142371,
+        0.1006612
+      ],
+      "url": "https://www.youtube.com/@VocesFanzineHKU",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p99-link-1",
+      "page": 99,
+      "type": "external",
+      "rect": [
+        0.2615446,
+        0.2302854,
+        0.0264584,
+        0.0106897
+      ],
+      "url": "https://realmadridhkfc.org/members/apply/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p100-link-1",
+      "page": 100,
+      "type": "external",
+      "rect": [
+        0.678113,
+        0.5804782,
+        0.0831547,
+        0.0160345
+      ],
+      "url": "https://www.facebook.com/realmadridhkfc",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p100-link-2",
+      "page": 100,
+      "type": "external",
+      "rect": [
+        0.7978054,
+        0.5804782,
+        0.0844147,
+        0.0160345
+      ],
+      "url": "https://www.instagram.com/hongkongmadridista",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p102-link-1",
+      "page": 102,
+      "type": "external",
+      "rect": [
+        0.6964776,
+        0.6478715,
+        0.1625298,
+        0.0302875
+      ],
+      "url": "https://www.facebook.com/barcahongkongfanclub",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p102-link-2",
+      "page": 102,
+      "type": "external",
+      "rect": [
+        0.5755252,
+        0.6745957,
+        0.1663095,
+        0.0302875
+      ],
+      "url": "https://www.instagram.com/barcapenyahk",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p103-link-1",
+      "page": 103,
+      "type": "external",
+      "rect": [
+        0.1489891,
+        0.4731614,
+        0.2708829,
+        0.0641381
+      ],
+      "url": "https://youtu.be/MM9pXrrD6sw",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p103-link-2",
+      "page": 103,
+      "type": "external",
+      "rect": [
+        0.0960725,
+        0.5248282,
+        0.3767162,
+        0.0641381
+      ],
+      "url": "https://youtu.be/MM9pXrrD6sw",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p103-link-3",
+      "page": 103,
+      "type": "external",
+      "rect": [
+        0.1489892,
+        0.4211985,
+        0.2708829,
+        0.0641381
+      ],
+      "url": "https://youtu.be/MM9pXrrD6sw",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p103-link-4",
+      "page": 103,
+      "type": "external",
+      "rect": [
+        0.5874131,
+        0.7451929,
+        0.270883,
+        0.0641382
+      ],
+      "url": "https://youtu.be/PdWqAvzj05A",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p103-link-5",
+      "page": 103,
+      "type": "external",
+      "rect": [
+        0.5344964,
+        0.7968598,
+        0.3767162,
+        0.0641381
+      ],
+      "url": "https://youtu.be/PdWqAvzj05A",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p103-link-6",
+      "page": 103,
+      "type": "external",
+      "rect": [
+        0.5874131,
+        0.6932301,
+        0.270883,
+        0.0641382
+      ],
+      "url": "https://youtu.be/PdWqAvzj05A",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p113-link-1",
+      "page": 113,
+      "type": "external",
+      "rect": [
+        0.0477341,
+        0.1817799,
+        0.904623,
+        0.5131052
+      ],
+      "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p114-link-1",
+      "page": 114,
+      "type": "external",
+      "rect": [
+        0.0477341,
+        0.2288635,
+        0.5064881,
+        0.2708055
+      ],
+      "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p114-link-2",
+      "page": 114,
+      "type": "external",
+      "rect": [
+        0.5020897,
+        0.6111963,
+        0.4258531,
+        0.3180183
+      ],
+      "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
+      "id": "p119-link-1",
+      "page": 119,
+      "type": "external",
+      "rect": [
+        0.3840529,
+        0.9287113,
+        0.2318254,
+        0.0178161
+      ],
+      "url": "https://spanish.hku.hk/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    }
+  ],
+  "pages": {
+    "1": [
+      {
+        "id": "p1-link-1",
+        "type": "external",
+        "rect": [
+          0.8223925,
+          0.9489178,
+          0.1297718,
+          0.0178161
+        ],
+        "url": "https://spanish.hku.hk/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "2": [
+      {
+        "id": "p2-link-1",
+        "type": "internal",
+        "rect": [
+          0.0968308,
+          0.5004525,
+          0.2419048,
+          0.0222702
+        ],
+        "targetPage": 3,
+        "label": {
+          "es": "Ir a El equipo de español",
+          "en": "Go to El equipo de español"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-2",
+        "type": "internal",
+        "rect": [
+          0.0936615,
+          0.6989059,
+          0.1133929,
+          0.0222702
+        ],
+        "targetPage": 9,
+        "label": {
+          "es": "Ir a Literatura",
+          "en": "Go to Literatura"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-3",
+        "type": "internal",
+        "rect": [
+          0.0968308,
+          0.607749,
+          0.2066269,
+          0.0222702
+        ],
+        "targetPage": 7,
+        "label": {
+          "es": "Ir a Aprender español",
+          "en": "Go to Aprender español"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-4",
+        "type": "internal",
+        "rect": [
+          0.0968308,
+          0.7900629,
+          0.0818948,
+          0.0222702
+        ],
+        "targetPage": 21,
+        "label": {
+          "es": "Ir a Música",
+          "en": "Go to Música"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-5",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.4936459,
+          0.1070932,
+          0.0222702
+        ],
+        "targetPage": 37,
+        "label": {
+          "es": "Ir a Deportes",
+          "en": "Go to Deportes"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-6",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.7032739,
+          0.1486706,
+          0.0222702
+        ],
+        "targetPage": 52,
+        "label": {
+          "es": "Ir a Gastronomía",
+          "en": "Go to Gastronomía"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-7",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.5988359,
+          0.1511904,
+          0.0222702
+        ],
+        "targetPage": 44,
+        "label": {
+          "es": "Ir a Eventos HKU",
+          "en": "Go to Eventos HKU"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-8",
+        "type": "internal",
+        "rect": [
+          0.0936615,
+          0.8812197,
+          0.2809623,
+          0.0222702
+        ],
+        "targetPage": 30,
+        "label": {
+          "es": "Ir a Mundo hispanohablante",
+          "en": "Go to Mundo hispanohablante"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p2-link-9",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.8478779,
+          0.1990674,
+          0.0222702
+        ],
+        "targetPage": 61,
+        "label": {
+          "es": "Ir a Versión en inglés",
+          "en": "Go to Versión en inglés"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "7": [
+      {
+        "id": "p7-link-1",
+        "type": "internal",
+        "rect": [
+          0.7552072,
+          0.5240915,
+          0.1877282,
+          0.0222702
+        ],
+        "targetPage": 67,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "9": [
+      {
+        "id": "p9-link-1",
+        "type": "internal",
+        "rect": [
+          0.6930765,
+          0.054999,
+          0.2683631,
+          0.032069
+        ],
+        "targetPage": 69,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "21": [
+      {
+        "id": "p21-link-1",
+        "type": "internal",
+        "rect": [
+          0.6930765,
+          0.054999,
+          0.2683631,
+          0.032069
+        ],
+        "targetPage": 81,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "22": [
+      {
+        "id": "p22-link-1",
+        "type": "external",
+        "rect": [
+          0.2650771,
+          0.8975356,
+          0.2267857,
+          0.0641382
+        ],
+        "url": "https://www.youtube.com/@VocesFanzineHKU",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "29": [
+      {
+        "id": "p29-link-1",
+        "type": "external",
+        "rect": [
+          0.0867246,
+          0.8553801,
+          0.142371,
+          0.1006612
+        ],
+        "url": "https://www.youtube.com/@VocesFanzineHKU",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "30": [
+      {
+        "id": "p30-link-1",
+        "type": "internal",
+        "rect": [
+          0.6930765,
+          0.054999,
+          0.2683631,
+          0.032069
+        ],
+        "targetPage": 90,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "37": [
+      {
+        "id": "p37-link-1",
+        "type": "internal",
+        "rect": [
+          0.6930765,
+          0.054999,
+          0.2683631,
+          0.032069
+        ],
+        "targetPage": 97,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "43": [
+      {
+        "id": "p43-link-1",
+        "type": "external",
+        "rect": [
+          0.1590685,
+          0.4211985,
+          0.2507242,
+          0.1677678
+        ],
+        "url": "https://youtu.be/MM9pXrrD6sw",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 3
+      },
+      {
+        "id": "p43-link-4",
+        "type": "external",
+        "rect": [
+          0.5974925,
+          0.69323,
+          0.2507242,
+          0.1677679
+        ],
+        "url": "https://youtu.be/PdWqAvzj05A",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 3
+      }
+    ],
+    "44": [
+      {
+        "id": "p44-link-1",
+        "type": "internal",
+        "rect": [
+          0.6930765,
+          0.054999,
+          0.2683631,
+          0.032069
+        ],
+        "targetPage": 104,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "52": [
+      {
+        "id": "p52-link-1",
+        "type": "internal",
+        "rect": [
+          0.6930765,
+          0.054999,
+          0.2683631,
+          0.032069
+        ],
+        "targetPage": 112,
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 2
+      }
+    ],
+    "53": [
+      {
+        "id": "p53-link-1",
+        "type": "external",
+        "rect": [
+          0.0477341,
+          0.1817799,
+          0.904623,
+          0.5131052
+        ],
+        "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "54": [
+      {
+        "id": "p54-link-1",
+        "type": "external",
+        "rect": [
+          0.0477341,
+          0.2031353,
+          0.5064881,
+          0.2708056
+        ],
+        "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p54-link-2",
+        "type": "external",
+        "rect": [
+          0.5020897,
+          0.6111963,
+          0.4258531,
+          0.3180183
+        ],
+        "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "59": [
+      {
+        "id": "p59-link-1",
+        "type": "external",
+        "rect": [
+          0.3840529,
+          0.9287113,
+          0.2318254,
+          0.0178161
+        ],
+        "url": "https://spanish.hku.hk/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "61": [
+      {
+        "id": "p61-link-1",
+        "type": "external",
+        "rect": [
+          0.8223925,
+          0.9489178,
+          0.1297718,
+          0.0178161
+        ],
+        "url": "https://spanish.hku.hk/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "62": [
+      {
+        "id": "p62-link-1",
+        "type": "internal",
+        "rect": [
+          0.0968308,
+          0.5004525,
+          0.1612698,
+          0.0222702
+        ],
+        "targetPage": 63,
+        "label": {
+          "es": "Ir a Spanish Team",
+          "en": "Go to Spanish Team"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-2",
+        "type": "internal",
+        "rect": [
+          0.0936615,
+          0.6989059,
+          0.1146528,
+          0.0222702
+        ],
+        "targetPage": 69,
+        "label": {
+          "es": "Ir a Literature",
+          "en": "Go to Literature"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-3",
+        "type": "internal",
+        "rect": [
+          0.0968308,
+          0.607749,
+          0.1990675,
+          0.0222702
+        ],
+        "targetPage": 67,
+        "label": {
+          "es": "Ir a Learning Spanish",
+          "en": "Go to Learning Spanish"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-4",
+        "type": "internal",
+        "rect": [
+          0.0968308,
+          0.7900629,
+          0.0692956,
+          0.0222702
+        ],
+        "targetPage": 81,
+        "label": {
+          "es": "Ir a Music",
+          "en": "Go to Music"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-5",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.4936459,
+          0.0755952,
+          0.0222702
+        ],
+        "targetPage": 97,
+        "label": {
+          "es": "Ir a Sports",
+          "en": "Go to Sports"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-6",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.7032739,
+          0.0592162,
+          0.0222702
+        ],
+        "targetPage": 112,
+        "label": {
+          "es": "Ir a Food",
+          "en": "Go to Food"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-7",
+        "type": "internal",
+        "rect": [
+          0.5989406,
+          0.5988359,
+          0.1360714,
+          0.0222702
+        ],
+        "targetPage": 104,
+        "label": {
+          "es": "Ir a HKU Events",
+          "en": "Go to HKU Events"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p62-link-8",
+        "type": "internal",
+        "rect": [
+          0.0936615,
+          0.8812197,
+          0.3275793,
+          0.0222702
+        ],
+        "targetPage": 90,
+        "label": {
+          "es": "Ir a The Spanish-speaking world",
+          "en": "Go to The Spanish-speaking world"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "82": [
+      {
+        "id": "p82-link-1",
+        "type": "external",
+        "rect": [
+          0.2562041,
+          0.8975356,
+          0.2444246,
+          0.0641382
+        ],
+        "url": "https://www.youtube.com/@VocesFanzineHKU",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "89": [
+      {
+        "id": "p89-link-1",
+        "type": "external",
+        "rect": [
+          0.0867246,
+          0.8553801,
+          0.142371,
+          0.1006612
+        ],
+        "url": "https://www.youtube.com/@VocesFanzineHKU",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "99": [
+      {
+        "id": "p99-link-1",
+        "type": "external",
+        "rect": [
+          0.2615446,
+          0.2302854,
+          0.0264584,
+          0.0106897
+        ],
+        "url": "https://realmadridhkfc.org/members/apply/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "100": [
+      {
+        "id": "p100-link-1",
+        "type": "external",
+        "rect": [
+          0.678113,
+          0.5804782,
+          0.0831547,
+          0.0160345
+        ],
+        "url": "https://www.facebook.com/realmadridhkfc",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p100-link-2",
+        "type": "external",
+        "rect": [
+          0.7978054,
+          0.5804782,
+          0.0844147,
+          0.0160345
+        ],
+        "url": "https://www.instagram.com/hongkongmadridista",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "102": [
+      {
+        "id": "p102-link-1",
+        "type": "external",
+        "rect": [
+          0.6964776,
+          0.6478715,
+          0.1625298,
+          0.0302875
+        ],
+        "url": "https://www.facebook.com/barcahongkongfanclub",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p102-link-2",
+        "type": "external",
+        "rect": [
+          0.5755252,
+          0.6745957,
+          0.1663095,
+          0.0302875
+        ],
+        "url": "https://www.instagram.com/barcapenyahk",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "103": [
+      {
+        "id": "p103-link-1",
+        "type": "external",
+        "rect": [
+          0.0960725,
+          0.4211985,
+          0.3767162,
+          0.1677678
+        ],
+        "url": "https://youtu.be/MM9pXrrD6sw",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 3
+      },
+      {
+        "id": "p103-link-4",
+        "type": "external",
+        "rect": [
+          0.5344964,
+          0.6932301,
+          0.3767162,
+          0.1677678
+        ],
+        "url": "https://youtu.be/PdWqAvzj05A",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 3
+      }
+    ],
+    "113": [
+      {
+        "id": "p113-link-1",
+        "type": "external",
+        "rect": [
+          0.0477341,
+          0.1817799,
+          0.904623,
+          0.5131052
+        ],
+        "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "114": [
+      {
+        "id": "p114-link-1",
+        "type": "external",
+        "rect": [
+          0.0477341,
+          0.2288635,
+          0.5064881,
+          0.2708055
+        ],
+        "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      },
+      {
+        "id": "p114-link-2",
+        "type": "external",
+        "rect": [
+          0.5020897,
+          0.6111963,
+          0.4258531,
+          0.3180183
+        ],
+        "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
+    "119": [
+      {
+        "id": "p119-link-1",
+        "type": "external",
+        "rect": [
+          0.3840529,
+          0.9287113,
+          0.2318254,
+          0.0178161
+        ],
+        "url": "https://spanish.hku.hk/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ]
+  }
+}

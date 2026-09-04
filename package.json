@@ -1,0 +1,41 @@
+{
+  "name": "voces-hku",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "build:pages": "cross-env BUILD_TARGET=github-pages next build",
+    "start": "vinext start",
+    "prepare:manifest": "node scripts/sync-manifest.mjs",
+    "prepare:links": "node scripts/extract-links.mjs ../Voces1comprimido.pdf public/issues/voces-1-2026/links.json",
+    "prepare:pdf": "node scripts/build-pdf.mjs ../Voces1comprimido public/issues/voces-1-2026/links.json output/pdf/voces-numero-1-2026-web.pdf",
+    "test": "node --test tests/*.test.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "cross-env": "10.1.0",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.3.289",
+    "react-server-dom-webpack": "19.2.6",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13"
+  },
+  "type": "module"
+}
