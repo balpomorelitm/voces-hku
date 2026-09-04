@@ -40,6 +40,7 @@ type LinkMap = {
 };
 
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const JOIN_URL = "https://www.surveymonkey.com/r/37R3C82";
 
 const text = {
   es: {
@@ -76,6 +77,7 @@ const text = {
     zoomIn: "Acercar",
     zoomOut: "Alejar",
     external: "Se abre en una pestaña nueva",
+    join: "Participa en el próximo número",
     loadingLinks: "Preparando enlaces interactivos…",
   },
   en: {
@@ -112,6 +114,7 @@ const text = {
     zoomIn: "Zoom in",
     zoomOut: "Zoom out",
     external: "Opens in a new tab",
+    join: "Join the next issue",
     loadingLinks: "Preparing interactive links…",
   },
 } as const;
@@ -354,6 +357,17 @@ function Archive({
         <p>{language === "es" ? "Fanzine estudiantil de español" : "Spanish students' fanzine"}<br />The University of Hong Kong</p>
         <a href="https://spanish.hku.hk/" target="_blank" rel="noreferrer">spanish.hku.hk ↗</a>
       </footer>
+
+      <a
+        className="join-tab"
+        href={JOIN_URL}
+        target="_blank"
+        rel="noreferrer"
+        aria-label={`${c.join}. ${c.external}`}
+      >
+        <span>{c.join}</span>
+        <span aria-hidden="true">↗</span>
+      </a>
     </div>
   );
 }

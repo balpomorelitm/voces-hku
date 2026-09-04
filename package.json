@@ -9,6 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "build:pages": "cross-env BUILD_TARGET=github-pages next build",
+    "build:netlify": "cross-env BUILD_TARGET=netlify next build",
     "start": "vinext start",
     "prepare:manifest": "node scripts/sync-manifest.mjs",
     "prepare:links": "node scripts/extract-links.mjs ../Voces1comprimido.pdf public/issues/voces-1-2026/links.json",

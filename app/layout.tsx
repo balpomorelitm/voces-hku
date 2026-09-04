@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const productionUrl =
+  process.env.URL ?? "https://balpomorelitm.github.io/voces-hku/";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://balpomorelitm.github.io/voces-hku/"),
+  metadataBase: new URL(productionUrl),
   title: "VOCES — Fanzine estudiantil de español de HKU",
   description:
     "La revista estudiantil de español de HKU: lengua, cultura y creatividad en una nueva edición cada semestre.",

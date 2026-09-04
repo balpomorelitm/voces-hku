@@ -1,10 +1,12 @@
 import type { NextConfig } from "next";
 
-const isGitHubPages = process.env.BUILD_TARGET === "github-pages";
+const buildTarget = process.env.BUILD_TARGET;
+const isGitHubPages = buildTarget === "github-pages";
+const isStaticExport = isGitHubPages || buildTarget === "netlify";
 const basePath = isGitHubPages ? "/voces-hku" : "";
 
 const nextConfig: NextConfig = {
-  output: isGitHubPages ? "export" : undefined,
+  output: isStaticExport ? "export" : undefined,
   basePath,
   assetPrefix: basePath || undefined,
   trailingSlash: true,
