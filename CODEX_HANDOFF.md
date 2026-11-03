@@ -1,6 +1,20 @@
 # Registro de continuidad de Codex
 
-Última actualización: 4 de septiembre de 2026.
+Última actualización: 3 de noviembre de 2026.
+
+## Actualización del 3 de noviembre de 2026
+
+- El usuario ha sustituido la edición anterior por los archivos definitivos `PARA PUBLICAR - Corr. BUENO.pdf` y `PARA PUBLICAR - Corr. BUENO.zip`, ubicados junto a `web/`.
+- El ZIP contiene 119 WebP de 1414 × 2000. Sus nombres mezclan números y secciones: debe conservarse el orden de las entradas del ZIP, nunca el orden alfabético. Se ha contrastado la secuencia completa con las 119 páginas renderizadas del PDF. Las páginas 11/71 y 20/80 son casi idénticas entre idiomas; las diferencias de comparación están dentro del ruido de compresión.
+- Se sustituyen las 119 imágenes sin recomprimirlas. Peso total: 25.870.820 bytes. Se añade `revisionDate: 2026-11-03` y una versión en las URL para evitar que las cachés conserven la edición anterior.
+- El PDF definitivo contiene 64 anotaciones, consolidadas en 49 zonas web. Conserva los siete saltos al inglés y los dos índices. El mapa se vuelve a extraer íntegramente del PDF definitivo.
+- `build-pdf.mjs` admite PNG y WebP numerados y usa el número real de páginas/anotaciones del mapa, sin fijar las 62 anotaciones antiguas.
+- Se genera de nuevo el PDF descargable, manteniendo el nombre y la URL de la Release para actualizar también los enlaces compartidos con anterioridad.
+- `https://voces-hku.netlify.app/` responde con HTTP 200 al comenzar esta revisión; se conservan tanto Netlify como Pages y la invitación de SurveyMonkey.
+- Validación local: `npm test`, `npm run build:netlify` y `npm run build:pages` superados. Las 119 imágenes publicadas coinciden byte a byte con las del ZIP ordenado; se han revisado muestras renderizadas del PDF final. El PDF tiene 48.427.915 bytes (46,2 MiB) y conserva los 64 destinos comprobados en las pruebas.
+- La descarga de GitHub Release se ha sustituido correctamente con `gh release upload --clobber`.
+- El primer intento de revisión con Computer Use se detuvo al no poder verificar la URL de Edge; no se llegaron a subir los cambios web. Se retoma la publicación mediante Git y los mecanismos de despliegue del repositorio.
+- Publicación y validación externa de esta revisión: en curso. Actualizar este registro al terminar.
 
 ## Estado actual
 

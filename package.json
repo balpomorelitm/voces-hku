@@ -12,8 +12,8 @@
     "build:netlify": "cross-env BUILD_TARGET=netlify next build",
     "start": "vinext start",
     "prepare:manifest": "node scripts/sync-manifest.mjs",
-    "prepare:links": "node scripts/extract-links.mjs ../Voces1comprimido.pdf public/issues/voces-1-2026/links.json",
-    "prepare:pdf": "node scripts/build-pdf.mjs ../Voces1comprimido public/issues/voces-1-2026/links.json output/pdf/voces-numero-1-2026-web.pdf",
+    "prepare:links": "node scripts/extract-links.mjs \"../PARA PUBLICAR - Corr. BUENO.pdf\" public/issues/voces-1-2026/links.json",
+    "prepare:pdf": "node scripts/build-pdf.mjs public/issues/voces-1-2026/pages public/issues/voces-1-2026/links.json output/pdf/voces-numero-1-2026-web.pdf",
     "test": "node --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },

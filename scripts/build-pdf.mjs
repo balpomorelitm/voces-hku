@@ -1,9 +1,9 @@
 import { spawnSync } from "node:child_process";
-import { readFile, mkdir, stat, writeFile } from "node:fs/promises";
+import { readFile, mkdir, readdir, stat, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { PDFDocument, PDFName, PDFNull, PDFString } from "pdf-lib";
 
-const imageDirectory = resolve(process.argv[2] ?? "../Voces1comprimido");
+const imageDirectory = resolve(process.argv[2] ?? "public/issues/voces-1-2026/pages");
 const linksPath = resolve(
   process.argv[3] ?? "public/issues/voces-1-2026/links.json",
 );
@@ -11,7 +11,8 @@ const outputPath = resolve(
   process.argv[4] ?? "output/pdf/voces-numero-1-2026-web.pdf",
 );
 const jpegDirectory = resolve("tmp/pdfs/voces-1-2026-jpeg");
-const PAGE_COUNT = 119;
+const linkMap = JSON.parse(await readFile(linksPath, "utf8"));
+const PAGE_COUNT = linkMap.pageCount;
 const PDF_WIDTH = 595.276;
 const PDF_HEIGHT = 841.89;
 const MAX_BYTES = 100 * 1024 * 1024;
@@ -19,8 +20,22 @@ const MAX_BYTES = 100 * 1024 * 1024;
 await mkdir(jpegDirectory, { recursive: true });
 await mkdir(dirname(outputPath), { recursive: true });
 
+const filenames = await readdir(imageDirectory);
+const imagePaths = new Map();
+for (const filename of filenames) {
+  const match = filename.match(/^(\d+)\.(png|webp)$/i);
+  if (!match) continue;
+  const number = Number(match[1]);
+  if (imagePaths.has(number)) throw new Error(`Duplicate image for page ${number}.`);
+  imagePaths.set(number, resolve(imageDirectory, filename));
+}
+if (imagePaths.size !== PAGE_COUNT) {
+  throw new Error(`Expected ${PAGE_COUNT} images, found ${imagePaths.size}.`);
+}
+
 for (let page = 1; page <= PAGE_COUNT; page += 1) {
-  const source = resolve(imageDirectory, `${page}.png`);
+  const source = imagePaths.get(page);
+  if (!source) throw new Error(`Missing image for page ${page}.`);
   const target = resolve(jpegDirectory, `${String(page).padStart(3, "0")}.jpg`);
   const conversion = spawnSync(
     "ffmpeg",
@@ -47,10 +62,9 @@ for (let page = 1; page <= PAGE_COUNT; page += 1) {
   }
 }
 
-const linkMap = JSON.parse(await readFile(linksPath, "utf8"));
-if (linkMap.sourceAnnotationCount !== 62) {
+if (linkMap.annotations.length !== linkMap.sourceAnnotationCount) {
   throw new Error(
-    `Expected 62 source annotations, found ${linkMap.sourceAnnotationCount}.`,
+    "The annotation count does not match the extracted PDF links.",
   );
 }
 

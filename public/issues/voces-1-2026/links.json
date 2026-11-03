@@ -1,8 +1,8 @@
 {
-  "source": "Voces1comprimido.pdf",
+  "source": "PARA PUBLICAR - Corr. BUENO.pdf",
   "pageCount": 119,
-  "sourceAnnotationCount": 62,
-  "hotspotCount": 47,
+  "sourceAnnotationCount": 64,
+  "hotspotCount": 49,
   "annotations": [
     {
       "id": "p1-link-1",
@@ -357,6 +357,22 @@
       }
     },
     {
+      "id": "p39-link-1",
+      "page": 39,
+      "type": "external",
+      "rect": [
+        0.1826049,
+        0.2235517,
+        0.0289782,
+        0.0106897
+      ],
+      "url": "https://realmadridhkfc.org/members/apply/",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
       "id": "p43-link-1",
       "page": 43,
       "type": "external",
@@ -485,6 +501,22 @@
       }
     },
     {
+      "id": "p47-link-1",
+      "page": 47,
+      "type": "external",
+      "rect": [
+        0.704734,
+        0.8159733,
+        0.1574902,
+        0.0204885
+      ],
+      "url": "https://www.instagram.com/dalecandelahk/?hl=es",
+      "label": {
+        "es": "Leer este artículo en inglés",
+        "en": "Read this article in English"
+      }
+    },
+    {
       "id": "p52-link-1",
       "page": 52,
       "type": "internal",
@@ -554,9 +586,9 @@
       "type": "external",
       "rect": [
         0.5020897,
-        0.6111963,
+        0.6440844,
         0.4258531,
-        0.3180183
+        0.2850584
       ],
       "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
       "label": {
@@ -1288,6 +1320,24 @@
         "sourceCount": 2
       }
     ],
+    "39": [
+      {
+        "id": "p39-link-1",
+        "type": "external",
+        "rect": [
+          0.1826049,
+          0.2235517,
+          0.0289782,
+          0.0106897
+        ],
+        "url": "https://realmadridhkfc.org/members/apply/",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
+      }
+    ],
     "43": [
       {
         "id": "p43-link-1",
@@ -1338,6 +1388,24 @@
           "en": "Read this article in English"
         },
         "sourceCount": 2
+      }
+    ],
+    "47": [
+      {
+        "id": "p47-link-1",
+        "type": "external",
+        "rect": [
+          0.704734,
+          0.8159733,
+          0.1574902,
+          0.0204885
+        ],
+        "url": "https://www.instagram.com/dalecandelahk/?hl=es",
+        "label": {
+          "es": "Leer este artículo en inglés",
+          "en": "Read this article in English"
+        },
+        "sourceCount": 1
       }
     ],
     "52": [
@@ -1398,9 +1466,9 @@
         "type": "external",
         "rect": [
           0.5020897,
-          0.6111963,
+          0.6440844,
           0.4258531,
-          0.3180183
+          0.2850584
         ],
         "url": "https://www.spanishexpress.co.uk/aperitivo-in-spain/",
         "label": {

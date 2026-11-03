@@ -4,6 +4,8 @@ Archivo bilingüe y lector web del fanzine estudiantil de español de The Univer
 
 ## Preparar una edición
 
+La versión definitiva del número 1 procede de `PARA PUBLICAR - Corr. BUENO.pdf` y `PARA PUBLICAR - Corr. BUENO.zip` (3 de noviembre de 2026). Los WebP del ZIP ya están optimizados; conservar su orden interno, que mezcla nombres numéricos y títulos de secciones, y contrastarlo con el PDF antes de renombrarlos. No ordenar el ZIP alfabéticamente.
+
 1. Colocar el PDF interactivo y la carpeta numerada de páginas junto a `web/`.
 2. Convertir las páginas a WebP dentro de `public/issues/<id>/pages/`.
 3. Ejecutar `npm run prepare:links` para conservar índices, enlaces externos y saltos de idioma.

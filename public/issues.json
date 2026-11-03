@@ -9,10 +9,11 @@
       "en": "119 pages of language, literature, music, food, sport and university life, created by HKU students of Spanish."
     },
     "pageCount": 119,
-    "cover": "/issues/voces-1-2026/pages/001.webp",
-    "pagePattern": "/issues/voces-1-2026/pages/{page}.webp",
-    "links": "/issues/voces-1-2026/links.json",
-    "downloadUrl": "https://github.com/balpomorelitm/voces-hku/releases/download/numero-1-2026/voces-numero-1-2026-web.pdf",
+    "revisionDate": "2026-11-03",
+    "cover": "/issues/voces-1-2026/pages/001.webp?v=20261103",
+    "pagePattern": "/issues/voces-1-2026/pages/{page}.webp?v=20261103",
+    "links": "/issues/voces-1-2026/links.json?v=20261103",
+    "downloadUrl": "https://github.com/balpomorelitm/voces-hku/releases/download/numero-1-2026/voces-numero-1-2026-web.pdf?revision=20261103",
     "sections": [
       { "page": 3, "es": "El equipo de español", "en": "The Spanish team" },
       { "page": 7, "es": "Aprender español", "en": "Learning Spanish" },

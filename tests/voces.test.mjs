@@ -13,6 +13,7 @@ test("publishes a complete, ordered first issue", async () => {
   assert.equal(manifest.length, 1);
   assert.equal(manifest[0].id, "voces-1-2026");
   assert.equal(manifest[0].pageCount, 119);
+  assert.equal(manifest[0].revisionDate, "2026-11-03");
   assert.equal(manifest[0].sections.length, 10);
 
   const files = (await readdir(new URL("pages/", issueRoot)))
@@ -29,7 +30,8 @@ test("publishes a complete, ordered first issue", async () => {
 test("keeps every interactive PDF link and the English-version jumps", async () => {
   const links = JSON.parse(await readFile(new URL("links.json", issueRoot), "utf8"));
   assert.equal(links.pageCount, 119);
-  assert.equal(links.sourceAnnotationCount, 62);
+  assert.equal(links.sourceAnnotationCount, 64);
+  assert.equal(links.source, "PARA PUBLICAR - Corr. BUENO.pdf");
   assert.ok(links.hotspotCount < links.sourceAnnotationCount);
 
   const expectedTranslations = new Map([
@@ -63,11 +65,22 @@ test("creates a compact, interactive 119-page download", async () => {
   const pdfStats = await stat(pdfUrl);
   assert.ok(pdfStats.size < 100 * 1024 * 1024);
   const pdf = await getDocument({ data: new Uint8Array(await readFile(pdfUrl)) }).promise;
+  const links = JSON.parse(await readFile(new URL("links.json", issueRoot), "utf8"));
   assert.equal(pdf.numPages, 119);
   let annotationCount = 0;
   for (let page = 1; page <= pdf.numPages; page += 1) {
-    annotationCount += (await (await pdf.getPage(page)).getAnnotations())
-      .filter((annotation) => annotation.subtype === "Link").length;
+    const annotations = (await (await pdf.getPage(page)).getAnnotations())
+      .filter((annotation) => annotation.subtype === "Link");
+    const expected = links.annotations.filter((annotation) => annotation.page === page);
+    assert.equal(annotations.length, expected.length, `Annotation count on page ${page}`);
+    for (let index = 0; index < expected.length; index += 1) {
+      if (expected[index].type === "internal") {
+        assert.equal((await pdf.getPageIndex(annotations[index].dest[0])) + 1, expected[index].targetPage);
+      } else {
+        assert.equal(annotations[index].url, expected[index].url);
+      }
+    }
+    annotationCount += annotations.length;
   }
-  assert.equal(annotationCount, 62);
+  assert.equal(annotationCount, 64);
 });
