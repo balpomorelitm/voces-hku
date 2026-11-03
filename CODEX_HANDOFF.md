@@ -14,7 +14,12 @@
 - Validación local: `npm test`, `npm run build:netlify` y `npm run build:pages` superados. Las 119 imágenes publicadas coinciden byte a byte con las del ZIP ordenado; se han revisado muestras renderizadas del PDF final. El PDF tiene 48.427.915 bytes (46,2 MiB) y conserva los 64 destinos comprobados en las pruebas.
 - La descarga de GitHub Release se ha sustituido correctamente con `gh release upload --clobber`.
 - El primer intento de revisión con Computer Use se detuvo al no poder verificar la URL de Edge; no se llegaron a subir los cambios web. Se retoma la publicación mediante Git y los mecanismos de despliegue del repositorio.
-- Publicación y validación externa de esta revisión: en curso. Actualizar este registro al terminar.
+- Publicación completada con el commit `39e355af31f7830b5c6fc3593572367e1cd2cbf1` en `main`.
+- Netlify: despliegue `6ae9bcf76693509fb93e41d6`, estado `ready`, publicado automáticamente desde ese commit en `https://voces-hku.netlify.app/`.
+- GitHub Pages: ejecución `41622892057` terminada con `success`, publicada en `https://balpomorelitm.github.io/voces-hku/`.
+- Comprobación HTTP en ambos proveedores: manifiesto con revisión `2026-11-03`, portada con el enlace de participación y mapa definitivo de 64 anotaciones/49 zonas. Se descargaron y compararon por SHA-256 las 119 imágenes de cada proveedor: todas coinciden con los archivos definitivos locales.
+- Descarga pública de la Release comprobada por SHA-256: sus 48.427.915 bytes coinciden exactamente con el PDF definitivo local.
+- La comprobación visual de los documentos se realizó antes de publicar. La comprobación de esta publicación se realizó mediante API y HTTP, sin utilizar Computer Use.
 
 ## Estado actual
 
@@ -22,7 +27,7 @@
 - Rama de publicación: `main`; la implementación partió del commit `5dcefab`.
 - Los cambios descritos aquí forman parte de la entrega de Netlify publicada en `main`; usa `git log --oneline` para identificar la revisión exacta.
 - GitHub Pages continúa configurado como despliegue de respaldo.
-- El código para Netlify está terminado y validado localmente, pero el despliegue externo sigue pendiente porque requiere acceso a la cuenta de Netlify.
+- Netlify y GitHub Pages están publicados y verificados con la edición definitiva del 3 de noviembre de 2026.
 
 ## Cambios del 4 de septiembre de 2026
 
@@ -50,7 +55,7 @@
 
 El build ejecutado directamente dentro de la carpeta sincronizada por OneDrive produjo `UNKNOWN: unknown error, read`, y el primer lint quedó esperando lecturas. Las mismas revisiones pasaron en una copia temporal limpia fuera de OneDrive, por lo que se trata como un problema de hidratación/sincronización del sistema de archivos, no del código.
 
-## Pasos pendientes en Netlify
+## Pasos pendientes históricos en Netlify (resueltos; sitio verificado el 3 de noviembre)
 
 1. En **Project configuration → Build & deploy**, desactivar o eliminar `@netlify/plugin-nextjs` del campo **Runtime** o de **Build plugins**.
 2. Crear `NETLIFY_NEXT_PLUGIN_SKIP=true` con alcance **Builds**.
